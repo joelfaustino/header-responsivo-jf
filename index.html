@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Responsivo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+
+    <!-- JQUERY CDN -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+    <header>
+        <nav id="nav-bar">
+            <h1>Logo.</h1>
+
+            <ul id="nav-list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#">Beats</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#">Depoimentos</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Contactar
+            </button>
+
+            <button id="mobile_btn">
+                <i class="bi bi-list"></i>
+            </button>
+        </nav>
+
+        <!-- === MENU MOBILE === -->
+
+        <div id="mobile_menu">
+            <ul class="mobile-nav-list">
+                <li class="nav-item">
+                    <a href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#">Beats</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#">Depoimentos</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Contactar
+            </button>
+        </div>
+    </header>
+    
+    <script src="script.js"></script>
+</body>
+</html>
