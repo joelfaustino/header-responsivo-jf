@@ -28,6 +28,10 @@ body {
     justify-content: space-between;
 }
 
+#nav-bar h1 {
+    cursor: pointer;
+}
+
 #nav-bar ul {
     list-style: none;
     display: flex;
